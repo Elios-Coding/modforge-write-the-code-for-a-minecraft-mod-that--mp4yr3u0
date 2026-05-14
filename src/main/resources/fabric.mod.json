@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "write-the-code-for-a-minecraft-mod-that--mp4yr3u0",
+  "version": "${version}",
+  "name": "Secret Menu XRAY",
+  "description": "Client-side Secret Menu opened with '*' that toggles an XRAY mode making non-ore blocks invisible while keeping ores visible.",
+  "authors": [
+    "Elio"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/write-the-code-for-a-minecraft-mod-that--mp4yr3u0/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.modforge.writethecodeforaminecraftmodthat.WriteTheCodeForAMinecraftModThatMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "mixins": [
+    "write-the-code-for-a-minecraft-mod-that--mp4yr3u0.mixins.json"
+  ]
+}
